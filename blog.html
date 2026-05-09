@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ブログ | タッカズ先生</title>
+  <meta name="description" content="タッカズ先生による麻雀ブログ。何切る問題・戦術解説・プロの考え方を発信。" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="blog.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER (shared) -->
+  <header id="header">
+    <div class="header-inner container">
+      <a href="index.html" class="logo">
+        <span class="logo-main">タッカズ先生</span>
+        <span class="logo-sub">TAKKAZU SENSEI</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="index.html#about">プロフィール</a></li>
+          <li><a href="index.html#services">サービス</a></li>
+          <li><a href="index.html#results">実績</a></li>
+          <li><a href="index.html#contact">お問い合わせ</a></li>
+          <li><a href="blog.html" class="active">ブログ</a></li>
+          <li><a href="https://coconala.com/users/3330352" target="_blank" rel="noopener" class="btn-nav">ココナラを見る</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- BLOG HERO -->
+  <section class="blog-hero">
+    <div class="container">
+      <p class="section-label">BLOG</p>
+      <h1 class="blog-hero-title">麻雀ブログ</h1>
+      <p class="blog-hero-desc">何切る問題・戦術解説・プロの思考をわかりやすく発信</p>
+    </div>
+  </section>
+
+  <!-- BLOG MAIN -->
+  <main class="blog-main">
+    <div class="container">
+      <div class="blog-layout">
+
+        <!-- POSTS -->
+        <div class="blog-posts">
+          <div class="blog-filter">
+            <button class="filter-btn active" data-cat="all">すべて</button>
+            <button class="filter-btn" data-cat="nanikiru">何切る問題</button>
+            <button class="filter-btn" data-cat="strategy">戦術解説</button>
+            <button class="filter-btn" data-cat="column">コラム</button>
+          </div>
+
+          <!-- Sample Post 1 -->
+          <article class="post-card" data-cat="nanikiru">
+            <div class="post-meta">
+              <span class="post-cat cat-nanikiru">何切る問題</span>
+              <time class="post-date">2025年6月1日</time>
+            </div>
+            <h2 class="post-title">
+              <a href="#">【何切る】メンタンピン確定の手牌、最速を取るか受け入れを広げるか</a>
+            </h2>
+            <p class="post-excerpt">
+              東1局親、メンタンピンが確定している手牌でのリャンメン選択問題。スピードと受け入れのバランスをプロ視点で解説します。
+            </p>
+            <div class="post-hand">
+              <span class="tile">1m</span><span class="tile">2m</span><span class="tile">3m</span>
+              <span class="tile">4m</span><span class="tile">5m</span><span class="tile">7p</span>
+              <span class="tile">8p</span><span class="tile">2s</span><span class="tile">3s</span>
+              <span class="tile">4s</span><span class="tile">5s</span><span class="tile">6s</span>
+              <span class="tile tile-draw">6p</span>
+            </div>
+            <a href="#" class="post-read-more">続きを読む →</a>
+          </article>
+
+          <!-- Sample Post 2 -->
+          <article class="post-card" data-cat="strategy">
+            <div class="post-meta">
+              <span class="post-cat cat-strategy">戦術解説</span>
+              <time class="post-date">2025年5月20日</time>
+            </div>
+            <h2 class="post-title">
+              <a href="#">リーチ判断の基準 ― プロはどう考えるか</a>
+            </h2>
+            <p class="post-excerpt">
+              「この手はリーチすべき？ダマにすべき？」誰もが悩む判断をシステム化。打点・速度・守備力のトレードオフをわかりやすく解説します。
+            </p>
+            <a href="#" class="post-read-more">続きを読む →</a>
+          </article>
+
+          <!-- Sample Post 3 -->
+          <article class="post-card" data-cat="column">
+            <div class="post-meta">
+              <span class="post-cat cat-column">コラム</span>
+              <time class="post-date">2025年5月10日</time>
+            </div>
+            <h2 class="post-title">
+              <a href="#">伸び悩む人に共通する「3つのクセ」</a>
+            </h2>
+            <p class="post-excerpt">
+              280件以上の指導実績から見えてきた、雀豪帯で頭打ちになる人に共通する打牌の習慣とその改善方法を解説します。
+            </p>
+            <a href="#" class="post-read-more">続きを読む →</a>
+          </article>
+
+          <!-- Coming soon notice -->
+          <div class="blog-coming-soon">
+            <div class="notice-icon">✍️</div>
+            <h3>記事を随時更新予定</h3>
+            <p>新しい何切る問題・戦術解説を定期的に投稿していきます。<br />更新情報はXでも発信しています。</p>
+            <a href="https://twitter.com/takkazu_mazyan" target="_blank" rel="noopener" class="btn btn-outline">
+              X（Twitter）をフォロー
+            </a>
+          </div>
+        </div>
+
+        <!-- SIDEBAR -->
+        <aside class="blog-sidebar">
+          <div class="sidebar-widget">
+            <h3 class="widget-title">カテゴリ</h3>
+            <ul class="widget-cats">
+              <li><a href="#">何切る問題 <span>1</span></a></li>
+              <li><a href="#">戦術解説 <span>1</span></a></li>
+              <li><a href="#">コラム <span>1</span></a></li>
+            </ul>
+          </div>
+
+          <div class="sidebar-widget">
+            <h3 class="widget-title">指導サービス</h3>
+            <div class="widget-service">
+              <p class="widget-service-name">牌譜検討（テキスト）</p>
+              <p class="widget-service-price">¥4,000</p>
+              <a href="https://coconala.com/services/2770856" target="_blank" rel="noopener" class="btn btn-service">購入する</a>
+            </div>
+          </div>
+
+          <div class="sidebar-widget">
+            <h3 class="widget-title">SNSをフォロー</h3>
+            <a href="https://twitter.com/takkazu_mazyan" target="_blank" rel="noopener" class="widget-sns">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.259 5.63L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              @takkazu_mazyan
+            </a>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER (shared) -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-main">タッカズ先生</span>
+            <span class="logo-sub">TAKKAZU SENSEI</span>
+          </a>
+          <p class="footer-desc">最高位戦日本プロ麻雀協会所属のプロ雀士による麻雀個人指導。</p>
+        </div>
+        <div class="footer-nav">
+          <h4>メニュー</h4>
+          <ul>
+            <li><a href="index.html#about">プロフィール</a></li>
+            <li><a href="index.html#services">サービス</a></li>
+            <li><a href="blog.html">ブログ</a></li>
+            <li><a href="index.html#contact">お問い合わせ</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h4>サービス（ココナラ）</h4>
+          <ul>
+            <li><a href="https://coconala.com/services/2770856" target="_blank" rel="noopener">牌譜検討（テキスト）</a></li>
+            <li><a href="https://coconala.com/services/2635453" target="_blank" rel="noopener">リアルタイム牌譜検討</a></li>
+            <li><a href="https://coconala.com/services/2705529" target="_blank" rel="noopener">1ヶ月みっちり指導</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>SNS</h4>
+          <ul>
+            <li>
+              <a href="https://twitter.com/takkazu_mazyan" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.259 5.63L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                X（Twitter）
+              </a>
+            </li>
+            <li><a href="https://coconala.com/users/3330352" target="_blank" rel="noopener">ココナラ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 タッカズ先生. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Blog filter
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const posts = document.querySelectorAll('.post-card');
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const cat = btn.dataset.cat;
+        posts.forEach(post => {
+          post.style.display = (cat === 'all' || post.dataset.cat === cat) ? 'block' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>
