@@ -181,7 +181,7 @@ section { padding: 96px 0; }
 .nav ul {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 22px;
 }
 .nav a {
   font-size: .88rem;
